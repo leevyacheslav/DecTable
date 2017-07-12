@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DecTable_Example' do
+  pod 'DecTable', :path => '../'
+
+  target 'DecTable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

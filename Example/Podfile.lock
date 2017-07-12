@@ -1,0 +1,16 @@
+PODS:
+  - DecTable (0.1.0)
+
+DEPENDENCIES:
+  - DecTable (from `../`)
+
+EXTERNAL SOURCES:
+  DecTable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DecTable: ebeb34965fea4e05bdf188cc279236ed1d52755c
+
+PODFILE CHECKSUM: e4a97400ed5e0e1d4d3ce184f612f3af016d4448
+
+COCOAPODS: 1.2.1

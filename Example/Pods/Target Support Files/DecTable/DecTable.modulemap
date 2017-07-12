@@ -1,0 +1,6 @@
+framework module DecTable {
+  umbrella header "DecTable-umbrella.h"
+
+  export *
+  module * { export * }
+}
