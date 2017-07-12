@@ -25,23 +25,44 @@
 {
     [super viewDidLoad];
     [self setUp];
-	// Do any additional setup after loading the view, typically from a nib.
+	
 }
 
 -(void)setUp {
     LVTableDirector *tableDirector = [[LVTableDirector alloc] initWithTableView:self.tableView];
-    
+    [tableDirector setDimension];
     LVTableRow *redRow = [[LVTableRow alloc] initWithCellClass:[LVRedCell class]];
     redRow.config = ^(LVRedCell *cell, NSIndexPath *indexPath) {
         cell.nameLabel.text = @"Red";
     };
-   
+    redRow.didSelect = ^(LVRedCell *cell, NSIndexPath *indexPath) {
+        NSLog(@"didSelect me");
+    };
     LVTableRow *blueRow = [[LVTableRow alloc] initWithCellClass:[LVBlueCell class]];
+    blueRow.autoDeselect = YES;
     blueRow.config = ^(LVBlueCell *cell, NSIndexPath *indexPath) {
         cell.nameLabel.text = @"Blue";
     };
-    
     [tableDirector addRows:@[redRow, blueRow]];
+    self.tableDirector = tableDirector;
+}
+
+- (void)setUpWithSection {
+    LVTableDirector *tableDirector = [[LVTableDirector alloc] initWithTableView:self.tableView];
+    [tableDirector setDimension];
+    LVTableSection *section = [[LVTableSection alloc] init];
+    section.headerTitle = @"Colors";
+    LVTableRow *redRow = [[LVTableRow alloc] initWithCellClass:[LVRedCell class]];
+    redRow.config = ^(LVRedCell *cell, NSIndexPath *indexPath) {
+        cell.nameLabel.text = @"Red";
+    };
+    LVTableRow *blueRow = [[LVTableRow alloc] initWithCellClass:[LVBlueCell class]];
+    blueRow.autoDeselect = YES;
+    blueRow.config = ^(LVBlueCell *cell, NSIndexPath *indexPath) {
+        cell.nameLabel.text = @"Blue";
+    };
+    [section addRows:@[redRow, blueRow]];
+    [tableDirector addSection:section];
     self.tableDirector = tableDirector;
 }
 
