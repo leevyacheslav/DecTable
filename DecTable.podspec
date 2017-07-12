@@ -25,13 +25,13 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Li Vyacheslav' => 'lslava939@gmail.com' }
-  s.source           = { :git => 'https://github.com/leevyacheslav/DecTable.git', :branch => "master", :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/leevyacheslav/DecTable.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/lee_slava'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DecTable/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'DecTable' => ['DecTable/Assets/*.png']
   # }
