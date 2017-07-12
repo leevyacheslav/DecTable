@@ -143,7 +143,7 @@ static const CGFloat kDefaultRowHeight = 44.0;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     LVTableRow *row = [[self sectionAtIndex:indexPath.section] rowAtIndex:indexPath.row];
-    [self.cellRegsitrator registerClass:row.class withReuseIdentifier:row.reuseIdentifier];
+    [self.cellRegsitrator registerClass:row.cellClass withReuseIdentifier:row.reuseIdentifier];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:row.reuseIdentifier forIndexPath:indexPath];
     if (row.config) {
         row.config(cell, indexPath);

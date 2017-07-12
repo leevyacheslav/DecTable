@@ -29,7 +29,7 @@
     }
     
     NSString *className = NSStringFromClass(cellClass);
-    NSAssert(![className isEqualToString:reuseIdentifier], @"Class name and reuseIdentifier must be same");
+    NSAssert([className isEqualToString:reuseIdentifier], @"Class name and reuseIdentifier must be same");
     
     NSBundle *bundle = [NSBundle bundleForClass:cellClass];
     if ([bundle pathForResource:reuseIdentifier ofType:@"nib"]) {

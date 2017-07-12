@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		117AFA8E1F16182900AEB0F4 /* LVTableSectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA8D1F16182900AEB0F4 /* LVTableSectionTests.m */; };
 		117AFA901F161A5600AEB0F4 /* LVTableRowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA8F1F161A5600AEB0F4 /* LVTableRowTests.m */; };
+		117AFA971F16285C00AEB0F4 /* LVRedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA961F16285C00AEB0F4 /* LVRedCell.m */; };
+		117AFA9B1F16287C00AEB0F4 /* LVBlueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA991F16287C00AEB0F4 /* LVBlueCell.m */; };
+		117AFA9C1F16287C00AEB0F4 /* LVBlueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 117AFA9A1F16287C00AEB0F4 /* LVBlueCell.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,6 +45,11 @@
 		088A8BB61617E42866DAA00E /* DecTable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DecTable.podspec; path = ../DecTable.podspec; sourceTree = "<group>"; };
 		117AFA8D1F16182900AEB0F4 /* LVTableSectionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableSectionTests.m; sourceTree = "<group>"; };
 		117AFA8F1F161A5600AEB0F4 /* LVTableRowTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableRowTests.m; sourceTree = "<group>"; };
+		117AFA951F16285C00AEB0F4 /* LVRedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LVRedCell.h; path = Cells/LVRedCell.h; sourceTree = "<group>"; };
+		117AFA961F16285C00AEB0F4 /* LVRedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LVRedCell.m; path = Cells/LVRedCell.m; sourceTree = "<group>"; };
+		117AFA981F16287C00AEB0F4 /* LVBlueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVBlueCell.h; sourceTree = "<group>"; };
+		117AFA991F16287C00AEB0F4 /* LVBlueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVBlueCell.m; sourceTree = "<group>"; };
+		117AFA9A1F16287C00AEB0F4 /* LVBlueCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LVBlueCell.xib; sourceTree = "<group>"; };
 		487644A6A9CC3F48688CE673 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4FD3EA56ABA6BB8A3A652553 /* Pods-DecTable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DecTable_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DecTable_Example/Pods-DecTable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DecTable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecTable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +108,11 @@
 		117AFA941F1626F500AEB0F4 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				117AFA951F16285C00AEB0F4 /* LVRedCell.h */,
+				117AFA961F16285C00AEB0F4 /* LVRedCell.m */,
+				117AFA981F16287C00AEB0F4 /* LVBlueCell.h */,
+				117AFA991F16287C00AEB0F4 /* LVBlueCell.m */,
+				117AFA9A1F16287C00AEB0F4 /* LVBlueCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -293,6 +306,7 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				117AFA9C1F16287C00AEB0F4 /* LVBlueCell.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,9 +419,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117AFA9B1F16287C00AEB0F4 /* LVBlueCell.m in Sources */,
 				6003F59E195388D20070C39A /* LVAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LVViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				117AFA971F16285C00AEB0F4 /* LVRedCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
