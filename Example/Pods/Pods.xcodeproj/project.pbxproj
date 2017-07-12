@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FDD646237FBD1316F6C7646156D56B7 /* DecTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5543AE0BC8F802A6F4C15CFEF89A72A /* DecTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		117AFA7D1F1615E900AEB0F4 /* LVTableCellRegistrator.h in Headers */ = {isa = PBXBuildFile; fileRef = 117AFA751F1615E900AEB0F4 /* LVTableCellRegistrator.h */; };
-		117AFA7E1F1615E900AEB0F4 /* LVTableCellRegistrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA761F1615E900AEB0F4 /* LVTableCellRegistrator.m */; };
-		117AFA7F1F1615E900AEB0F4 /* LVTableDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = 117AFA771F1615E900AEB0F4 /* LVTableDirector.h */; };
-		117AFA801F1615E900AEB0F4 /* LVTableDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA781F1615E900AEB0F4 /* LVTableDirector.m */; };
-		117AFA811F1615E900AEB0F4 /* LVTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 117AFA791F1615E900AEB0F4 /* LVTableRow.h */; };
-		117AFA821F1615E900AEB0F4 /* LVTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA7A1F1615E900AEB0F4 /* LVTableRow.m */; };
-		117AFA831F1615E900AEB0F4 /* LVTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 117AFA7B1F1615E900AEB0F4 /* LVTableSection.h */; };
-		117AFA841F1615E900AEB0F4 /* LVTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA7C1F1615E900AEB0F4 /* LVTableSection.m */; };
-		22CCA0876B3F2CDFC2673BE794E2D48E /* DecTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C29084EFFF9DC5FC94CE1D86B679120 /* DecTable-dummy.m */; };
+		200D1BDF32BB170C98559C96B0F4BFAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		56299C695EA15E31FCAD391BC4C1ECA5 /* LVTableCellRegistrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A9B7851C508D77BD6671E772F641129 /* LVTableCellRegistrator.m */; };
 		63732EA31376E027C13A939AC2EE685D /* Pods-DecTable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A95499F62436B169B6E9AE266DB2D199 /* Pods-DecTable_Tests-dummy.m */; };
-		6ABD5353C081677F3CA31DB5E9BAD8F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		71C71446825F70E6CC63E1D04125B99F /* LVTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 976C791EF70CE78622FD9743EA1B34EC /* LVTableRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8758F8B1FC7DBDC08B92EEA1BD4E9637 /* LVTableCellRegistrator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6994D6E2B8F102E2F2694ABF3B4750FE /* LVTableCellRegistrator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		928BCA598FB853CAF1CE665C3938284F /* DecTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5543AE0BC8F802A6F4C15CFEF89A72A /* DecTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92D118944647054B5EE02DFC208B0AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9C298F9500B1F228EF3BFC591AF1355D /* LVTableDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E585C3A2D796F42ADC6AE53111F519 /* LVTableDirector.m */; };
 		9E1E9E3F1B18B11584FF199AB4CA879A /* Pods-DecTable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C524D5F5258AB17AF1B65F067A08F357 /* Pods-DecTable_Example-dummy.m */; };
+		A7E3B074F2E532DB7EF0798B6A578E88 /* LVTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB22CCD201FB0A17682A8234262D721 /* LVTableSection.m */; };
 		B7BF7040329B6E209AF99403115D995D /* Pods-DecTable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC732220595EC659AE593E9D1CDBFEA5 /* Pods-DecTable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB763AC3129C101546D228B6B8A45E75 /* Pods-DecTable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE19C48E71245D7BFE2389958116AC1C /* Pods-DecTable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7FEF8ACB6AC2D9E0CDC8B9B188B9A81 /* LVTableDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = 7165C8C5EBE542955A310D2CDA860A39 /* LVTableDirector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBBF8119DDAA8BD1456E732F40912420 /* DecTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C29084EFFF9DC5FC94CE1D86B679120 /* DecTable-dummy.m */; };
+		E0CDFF2696CE4FC29A0F50D400391B76 /* LVTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BC4612259DAA1B91BF0BBE16F406A6 /* LVTableRow.m */; };
+		EE6712E24B560110F160067ED11519CD /* LVDecTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 929856832658CC6BFF924F467430138B /* LVDecTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16416F5500DD7699C5187732A811FA7 /* LVTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = CD2664C7FB045E4A416F39C3007231AB /* LVTableSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F775835A4CEBA0121C78EC9F42F27D52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,59 +32,60 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7CD7FC144A8ACB0B31D277823B825E1A;
+			remoteGlobalIDString = 278E32D9E052F125C04A0AE7E1D2701E;
 			remoteInfo = DecTable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A9B7851C508D77BD6671E772F641129 /* LVTableCellRegistrator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LVTableCellRegistrator.m; sourceTree = "<group>"; };
 		10DF8552C11228E0A38667182E6D6343 /* Pods-DecTable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecTable_Example-resources.sh"; sourceTree = "<group>"; };
-		117AFA751F1615E900AEB0F4 /* LVTableCellRegistrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTableCellRegistrator.h; sourceTree = "<group>"; };
-		117AFA761F1615E900AEB0F4 /* LVTableCellRegistrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableCellRegistrator.m; sourceTree = "<group>"; };
-		117AFA771F1615E900AEB0F4 /* LVTableDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTableDirector.h; sourceTree = "<group>"; };
-		117AFA781F1615E900AEB0F4 /* LVTableDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableDirector.m; sourceTree = "<group>"; };
-		117AFA791F1615E900AEB0F4 /* LVTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTableRow.h; sourceTree = "<group>"; };
-		117AFA7A1F1615E900AEB0F4 /* LVTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableRow.m; sourceTree = "<group>"; };
-		117AFA7B1F1615E900AEB0F4 /* LVTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTableSection.h; sourceTree = "<group>"; };
-		117AFA7C1F1615E900AEB0F4 /* LVTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableSection.m; sourceTree = "<group>"; };
 		2929B80BDC78B0FD8B52214E27AE3EF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B90972B8940179C937249BAF2086AA8 /* Pods-DecTable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecTable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30C94A806CD7E016ECC56B9E5CAC25F3 /* Pods-DecTable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecTable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3982053C4C357D1187D5ECE7A226537F /* Pods_DecTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecTable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3982053C4C357D1187D5ECE7A226537F /* Pods_DecTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DecTable_Example.framework; path = "Pods-DecTable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E585C3A2D796F42ADC6AE53111F519 /* LVTableDirector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LVTableDirector.m; sourceTree = "<group>"; };
 		3F262A0CD2CA937E96CC345DAAF326A4 /* DecTable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DecTable.xcconfig; sourceTree = "<group>"; };
 		50234C4507342084F902E7511326683E /* Pods-DecTable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecTable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CB22CCD201FB0A17682A8234262D721 /* LVTableSection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LVTableSection.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		682BBB6BB6B1782107F5EB8BF9FBF7AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A76F0646BAD636D54CDDB96A8E469C2 /* DecTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DecTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6994D6E2B8F102E2F2694ABF3B4750FE /* LVTableCellRegistrator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LVTableCellRegistrator.h; sourceTree = "<group>"; };
+		7165C8C5EBE542955A310D2CDA860A39 /* LVTableDirector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LVTableDirector.h; sourceTree = "<group>"; };
+		72BC4612259DAA1B91BF0BBE16F406A6 /* LVTableRow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LVTableRow.m; sourceTree = "<group>"; };
+		7A76F0646BAD636D54CDDB96A8E469C2 /* DecTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DecTable.framework; path = DecTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87349797BE226E9003FC37A2C5898CC1 /* Pods-DecTable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecTable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		929856832658CC6BFF924F467430138B /* LVDecTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LVDecTable.h; sourceTree = "<group>"; };
 		934E0533C00DCB29601FC3DEF9AB0201 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95D314EE6DA05F93409EF76DF123AADF /* DecTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DecTable-prefix.pch"; sourceTree = "<group>"; };
+		976C791EF70CE78622FD9743EA1B34EC /* LVTableRow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LVTableRow.h; sourceTree = "<group>"; };
 		9C29084EFFF9DC5FC94CE1D86B679120 /* DecTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DecTable-dummy.m"; sourceTree = "<group>"; };
 		A6E80C2F36676BB5903D75766A635E35 /* Pods-DecTable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecTable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A95499F62436B169B6E9AE266DB2D199 /* Pods-DecTable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecTable_Tests-dummy.m"; sourceTree = "<group>"; };
 		AC16931AEDC7D06020F37E5CBA690090 /* Pods-DecTable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecTable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD5260BDEB08061ED40970B6EADBEC11 /* Pods-DecTable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecTable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AEB7FDA4EF01FE018DAE91AD6BD4C395 /* Pods_DecTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecTable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB7FDA4EF01FE018DAE91AD6BD4C395 /* Pods_DecTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DecTable_Tests.framework; path = "Pods-DecTable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56DB3B35CF69F34F33CC02835A3828B /* Pods-DecTable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecTable_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B98DCEEE12D99F47807C4330E32CE46D /* Pods-DecTable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecTable_Tests-resources.sh"; sourceTree = "<group>"; };
 		BD6A0CEF04AB4572F59CA5FD8026D2D6 /* Pods-DecTable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecTable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C37CC6AF7D638A6AB3AF197DBE65B1A9 /* DecTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DecTable.modulemap; sourceTree = "<group>"; };
+		C37CC6AF7D638A6AB3AF197DBE65B1A9 /* DecTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DecTable.modulemap; sourceTree = "<group>"; };
 		C524D5F5258AB17AF1B65F067A08F357 /* Pods-DecTable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecTable_Example-dummy.m"; sourceTree = "<group>"; };
+		CD2664C7FB045E4A416F39C3007231AB /* LVTableSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LVTableSection.h; sourceTree = "<group>"; };
 		D5543AE0BC8F802A6F4C15CFEF89A72A /* DecTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DecTable-umbrella.h"; sourceTree = "<group>"; };
-		D59AC9F0398805ECAA75CD6B764391FC /* Pods-DecTable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DecTable_Example.modulemap"; sourceTree = "<group>"; };
-		D60537DDE4D7B1195E7F8CBD21189A01 /* Pods-DecTable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DecTable_Tests.modulemap"; sourceTree = "<group>"; };
+		D59AC9F0398805ECAA75CD6B764391FC /* Pods-DecTable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DecTable_Example.modulemap"; sourceTree = "<group>"; };
+		D60537DDE4D7B1195E7F8CBD21189A01 /* Pods-DecTable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DecTable_Tests.modulemap"; sourceTree = "<group>"; };
 		DE19C48E71245D7BFE2389958116AC1C /* Pods-DecTable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecTable_Example-umbrella.h"; sourceTree = "<group>"; };
 		DE4F74ED0EB220AEC13F5A155803CCBA /* Pods-DecTable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecTable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EC732220595EC659AE593E9D1CDBFEA5 /* Pods-DecTable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecTable_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8243627445B94E0544816B51D503F553 /* Frameworks */ = {
+		74B44F242178739639934B3D07C6C0AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ABD5353C081677F3CA31DB5E9BAD8F9 /* Foundation.framework in Frameworks */,
+				200D1BDF32BB170C98559C96B0F4BFAD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +108,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		019DF199B7D3F606B08D1DF75F129FF2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				929856832658CC6BFF924F467430138B /* LVDecTable.h */,
+				6994D6E2B8F102E2F2694ABF3B4750FE /* LVTableCellRegistrator.h */,
+				0A9B7851C508D77BD6671E772F641129 /* LVTableCellRegistrator.m */,
+				7165C8C5EBE542955A310D2CDA860A39 /* LVTableDirector.h */,
+				39E585C3A2D796F42ADC6AE53111F519 /* LVTableDirector.m */,
+				976C791EF70CE78622FD9743EA1B34EC /* LVTableRow.h */,
+				72BC4612259DAA1B91BF0BBE16F406A6 /* LVTableRow.m */,
+				CD2664C7FB045E4A416F39C3007231AB /* LVTableSection.h */,
+				5CB22CCD201FB0A17682A8234262D721 /* LVTableSection.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		0982C84BB203E02A46B0FFC0D234660D /* Pods-DecTable_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +169,15 @@
 			);
 			name = "Pods-DecTable_Tests";
 			path = "Target Support Files/Pods-DecTable_Tests";
+			sourceTree = "<group>";
+		};
+		5CD6DCDF080F49D7A562AAB3194B10B7 /* DecTable */ = {
+			isa = PBXGroup;
+			children = (
+				019DF199B7D3F606B08D1DF75F129FF2 /* Classes */,
+			);
+			name = DecTable;
+			path = DecTable;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -205,26 +233,11 @@
 		D7D3D29BF7BA8FF452F4C090757A09F9 /* DecTable */ = {
 			isa = PBXGroup;
 			children = (
-				F247FCE3C6036E233108951F8C685EF7 /* DecTable */,
+				5CD6DCDF080F49D7A562AAB3194B10B7 /* DecTable */,
 				AF2F054CA5DA71EFD788A09F955B19DA /* Support Files */,
 			);
 			name = DecTable;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		E2B5C3A3192E6506BFD24BB6E6553266 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				117AFA751F1615E900AEB0F4 /* LVTableCellRegistrator.h */,
-				117AFA761F1615E900AEB0F4 /* LVTableCellRegistrator.m */,
-				117AFA791F1615E900AEB0F4 /* LVTableRow.h */,
-				117AFA7A1F1615E900AEB0F4 /* LVTableRow.m */,
-				117AFA7B1F1615E900AEB0F4 /* LVTableSection.h */,
-				117AFA7C1F1615E900AEB0F4 /* LVTableSection.m */,
-				117AFA771F1615E900AEB0F4 /* LVTableDirector.h */,
-				117AFA781F1615E900AEB0F4 /* LVTableDirector.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		E6BD0F8B80F007A6EE4308EDA20FD27F /* Development Pods */ = {
@@ -233,14 +246,6 @@
 				D7D3D29BF7BA8FF452F4C090757A09F9 /* DecTable */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F247FCE3C6036E233108951F8C685EF7 /* DecTable */ = {
-			isa = PBXGroup;
-			children = (
-				E2B5C3A3192E6506BFD24BB6E6553266 /* Classes */,
-			);
-			path = DecTable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,15 +259,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8795E09FE4BB5F0C4765DAFF7858AF7D /* Headers */ = {
+		48A7E245BC2A954204AAC86505F2A899 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117AFA811F1615E900AEB0F4 /* LVTableRow.h in Headers */,
-				117AFA831F1615E900AEB0F4 /* LVTableSection.h in Headers */,
-				117AFA7D1F1615E900AEB0F4 /* LVTableCellRegistrator.h in Headers */,
-				0FDD646237FBD1316F6C7646156D56B7 /* DecTable-umbrella.h in Headers */,
-				117AFA7F1F1615E900AEB0F4 /* LVTableDirector.h in Headers */,
+				928BCA598FB853CAF1CE665C3938284F /* DecTable-umbrella.h in Headers */,
+				EE6712E24B560110F160067ED11519CD /* LVDecTable.h in Headers */,
+				8758F8B1FC7DBDC08B92EEA1BD4E9637 /* LVTableCellRegistrator.h in Headers */,
+				C7FEF8ACB6AC2D9E0CDC8B9B188B9A81 /* LVTableDirector.h in Headers */,
+				71C71446825F70E6CC63E1D04125B99F /* LVTableRow.h in Headers */,
+				F16416F5500DD7699C5187732A811FA7 /* LVTableSection.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +283,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		278E32D9E052F125C04A0AE7E1D2701E /* DecTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA46DC402DAF51F9D88E46EF2C9A1C8 /* Build configuration list for PBXNativeTarget "DecTable" */;
+			buildPhases = (
+				5509F23E72DFF38493B913A1A3DF7BC6 /* Sources */,
+				74B44F242178739639934B3D07C6C0AA /* Frameworks */,
+				48A7E245BC2A954204AAC86505F2A899 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecTable;
+			productName = DecTable;
+			productReference = 7A76F0646BAD636D54CDDB96A8E469C2 /* DecTable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2D3CC76313097B4EBE30FEB1910EF592 /* Pods-DecTable_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2D46F52D6E8B2BE9EDB00B286A6FD0F /* Build configuration list for PBXNativeTarget "Pods-DecTable_Example" */;
@@ -293,23 +316,6 @@
 			name = "Pods-DecTable_Example";
 			productName = "Pods-DecTable_Example";
 			productReference = 3982053C4C357D1187D5ECE7A226537F /* Pods_DecTable_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7CD7FC144A8ACB0B31D277823B825E1A /* DecTable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 70D6A8FD6FB9BA1C3FCC9BF82E2D753E /* Build configuration list for PBXNativeTarget "DecTable" */;
-			buildPhases = (
-				EAE1AF8FDC9CBF2437450031EB426031 /* Sources */,
-				8243627445B94E0544816B51D503F553 /* Frameworks */,
-				8795E09FE4BB5F0C4765DAFF7858AF7D /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DecTable;
-			productName = DecTable;
-			productReference = 7A76F0646BAD636D54CDDB96A8E469C2 /* DecTable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9029BDE055CBC93D62CD97B9AF5CDCDB /* Pods-DecTable_Tests */ = {
@@ -350,7 +356,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7CD7FC144A8ACB0B31D277823B825E1A /* DecTable */,
+				278E32D9E052F125C04A0AE7E1D2701E /* DecTable */,
 				2D3CC76313097B4EBE30FEB1910EF592 /* Pods-DecTable_Example */,
 				9029BDE055CBC93D62CD97B9AF5CDCDB /* Pods-DecTable_Tests */,
 			);
@@ -374,15 +380,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAE1AF8FDC9CBF2437450031EB426031 /* Sources */ = {
+		5509F23E72DFF38493B913A1A3DF7BC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				117AFA821F1615E900AEB0F4 /* LVTableRow.m in Sources */,
-				22CCA0876B3F2CDFC2673BE794E2D48E /* DecTable-dummy.m in Sources */,
-				117AFA841F1615E900AEB0F4 /* LVTableSection.m in Sources */,
-				117AFA801F1615E900AEB0F4 /* LVTableDirector.m in Sources */,
-				117AFA7E1F1615E900AEB0F4 /* LVTableCellRegistrator.m in Sources */,
+				CBBF8119DDAA8BD1456E732F40912420 /* DecTable-dummy.m in Sources */,
+				56299C695EA15E31FCAD391BC4C1ECA5 /* LVTableCellRegistrator.m in Sources */,
+				9C298F9500B1F228EF3BFC591AF1355D /* LVTableDirector.m in Sources */,
+				E0CDFF2696CE4FC29A0F50D400391B76 /* LVTableRow.m in Sources */,
+				A7E3B074F2E532DB7EF0798B6A578E88 /* LVTableSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +398,7 @@
 		2D456F219B7DB4EA21935506B8B730B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DecTable;
-			target = 7CD7FC144A8ACB0B31D277823B825E1A /* DecTable */;
+			target = 278E32D9E052F125C04A0AE7E1D2701E /* DecTable */;
 			targetProxy = C24A51667BB7061DA496F518FB4A1035 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,6 +487,38 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		3F4709389EF1F3BF9111188A7B5651F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F262A0CD2CA937E96CC345DAAF326A4 /* DecTable.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DecTable/DecTable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DecTable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DecTable/DecTable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DecTable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		457AA2A7C1AC6F9960B7BBECEB9B5A7D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -598,38 +636,6 @@
 			};
 			name = Debug;
 		};
-		C99E9484081A2B688606901E673461DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F262A0CD2CA937E96CC345DAAF326A4 /* DecTable.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DecTable/DecTable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DecTable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DecTable/DecTable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DecTable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		E464938C2374D0407F3C0C74995228E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30C94A806CD7E016ECC56B9E5CAC25F3 /* Pods-DecTable_Tests.release.xcconfig */;
@@ -666,7 +672,7 @@
 			};
 			name = Release;
 		};
-		FC55C0D715191B77F42B2E27A8941F2C /* Debug */ = {
+		ECCD375921CC25EF776613000F4C1EF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3F262A0CD2CA937E96CC345DAAF326A4 /* DecTable.xcconfig */;
 			buildSettings = {
@@ -701,6 +707,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1DA46DC402DAF51F9D88E46EF2C9A1C8 /* Build configuration list for PBXNativeTarget "DecTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCD375921CC25EF776613000F4C1EF1 /* Debug */,
+				3F4709389EF1F3BF9111188A7B5651F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -715,15 +730,6 @@
 			buildConfigurations = (
 				457AA2A7C1AC6F9960B7BBECEB9B5A7D /* Debug */,
 				E464938C2374D0407F3C0C74995228E5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		70D6A8FD6FB9BA1C3FCC9BF82E2D753E /* Build configuration list for PBXNativeTarget "DecTable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FC55C0D715191B77F42B2E27A8941F2C /* Debug */,
-				C99E9484081A2B688606901E673461DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

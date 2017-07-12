@@ -1,6 +1,5 @@
 # DecTable
 
-[![CI Status](http://img.shields.io/travis/vahob@utilitynyc.com/DecTable.svg?style=flat)](https://travis-ci.org/vahob@utilitynyc.com/DecTable)
 [![Version](https://img.shields.io/cocoapods/v/DecTable.svg?style=flat)](http://cocoapods.org/pods/DecTable)
 [![License](https://img.shields.io/cocoapods/l/DecTable.svg?style=flat)](http://cocoapods.org/pods/DecTable)
 [![Platform](https://img.shields.io/cocoapods/p/DecTable.svg?style=flat)](http://cocoapods.org/pods/DecTable)

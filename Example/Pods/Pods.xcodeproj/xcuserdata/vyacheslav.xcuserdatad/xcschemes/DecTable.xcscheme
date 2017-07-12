@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7CD7FC144A8ACB0B31D277823B825E1A'
+               BlueprintIdentifier = '278E32D9E052F125C04A0AE7E1D2701E'
                BlueprintName = 'DecTable'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'DecTable.framework'>

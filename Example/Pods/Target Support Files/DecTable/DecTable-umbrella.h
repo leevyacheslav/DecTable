@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "LVDecTable.h"
+#import "LVTableCellRegistrator.h"
+#import "LVTableDirector.h"
+#import "LVTableRow.h"
+#import "LVTableSection.h"
 
 FOUNDATION_EXPORT double DecTableVersionNumber;
 FOUNDATION_EXPORT const unsigned char DecTableVersionString[];
