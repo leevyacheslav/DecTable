@@ -167,6 +167,9 @@ static const CGFloat kDefaultRowHeight = 44.0;
         UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
         row.didSelect(cell, indexPath);
     }
+    if (row.autoDeselect) {
+        [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    }
 }
 
 - (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {

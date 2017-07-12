@@ -15,6 +15,11 @@
     if (self) {
         _cellClass = cellClass;
         _reuseIdentifier = NSStringFromClass(cellClass);
+        _autoDeselect = NO;
+        _removeTitle = nil;
+        _config = nil;
+        _didSelect = nil;
+        _remove = nil;
     }
     return self;
 }

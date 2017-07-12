@@ -16,6 +16,7 @@ typedef void (^LVTableRowBlock) (id cell, NSIndexPath *indexPath);
 @property (nonatomic, strong, readonly) NSString *reuseIdentifier;
 // default is 0.0 wiil use UITableViewAutomaticDimension
 @property (nonatomic) CGFloat height;
+@property (nonatomic) BOOL autoDeselect;
 @property (nonatomic, strong) NSString *removeTitle;
 @property (nonatomic, readonly) Class cellClass;
 @property (nonatomic, copy) LVTableRowBlock config;
