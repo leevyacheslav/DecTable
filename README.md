@@ -22,7 +22,7 @@ pod "DecTable"
 
 ## Author
 
-vahob@utilitynyc.com, lslava939@gmail.com
+Li Vycheslav
 
 ## License
 

@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0FDD646237FBD1316F6C7646156D56B7 /* DecTable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5543AE0BC8F802A6F4C15CFEF89A72A /* DecTable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		117AFA7D1F1615E900AEB0F4 /* LVTableCellRegistrator.h in Headers */ = {isa = PBXBuildFile; fileRef = 117AFA751F1615E900AEB0F4 /* LVTableCellRegistrator.h */; };
+		117AFA7E1F1615E900AEB0F4 /* LVTableCellRegistrator.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA761F1615E900AEB0F4 /* LVTableCellRegistrator.m */; };
+		117AFA7F1F1615E900AEB0F4 /* LVTableDirector.h in Headers */ = {isa = PBXBuildFile; fileRef = 117AFA771F1615E900AEB0F4 /* LVTableDirector.h */; };
+		117AFA801F1615E900AEB0F4 /* LVTableDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA781F1615E900AEB0F4 /* LVTableDirector.m */; };
+		117AFA811F1615E900AEB0F4 /* LVTableRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 117AFA791F1615E900AEB0F4 /* LVTableRow.h */; };
+		117AFA821F1615E900AEB0F4 /* LVTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA7A1F1615E900AEB0F4 /* LVTableRow.m */; };
+		117AFA831F1615E900AEB0F4 /* LVTableSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 117AFA7B1F1615E900AEB0F4 /* LVTableSection.h */; };
+		117AFA841F1615E900AEB0F4 /* LVTableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 117AFA7C1F1615E900AEB0F4 /* LVTableSection.m */; };
 		22CCA0876B3F2CDFC2673BE794E2D48E /* DecTable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C29084EFFF9DC5FC94CE1D86B679120 /* DecTable-dummy.m */; };
 		63732EA31376E027C13A939AC2EE685D /* Pods-DecTable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A95499F62436B169B6E9AE266DB2D199 /* Pods-DecTable_Tests-dummy.m */; };
 		6ABD5353C081677F3CA31DB5E9BAD8F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		92D118944647054B5EE02DFC208B0AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9E1E9E3F1B18B11584FF199AB4CA879A /* Pods-DecTable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C524D5F5258AB17AF1B65F067A08F357 /* Pods-DecTable_Example-dummy.m */; };
-		ABE71DB6DE13F01841B1DCE078975599 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C37BF2EC3B4E31F86782AA3DEBC0442 /* ReplaceMe.m */; };
 		B7BF7040329B6E209AF99403115D995D /* Pods-DecTable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC732220595EC659AE593E9D1CDBFEA5 /* Pods-DecTable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BB763AC3129C101546D228B6B8A45E75 /* Pods-DecTable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE19C48E71245D7BFE2389958116AC1C /* Pods-DecTable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F775835A4CEBA0121C78EC9F42F27D52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -30,35 +37,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C37BF2EC3B4E31F86782AA3DEBC0442 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		10DF8552C11228E0A38667182E6D6343 /* Pods-DecTable_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecTable_Example-resources.sh"; sourceTree = "<group>"; };
+		117AFA751F1615E900AEB0F4 /* LVTableCellRegistrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTableCellRegistrator.h; sourceTree = "<group>"; };
+		117AFA761F1615E900AEB0F4 /* LVTableCellRegistrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableCellRegistrator.m; sourceTree = "<group>"; };
+		117AFA771F1615E900AEB0F4 /* LVTableDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTableDirector.h; sourceTree = "<group>"; };
+		117AFA781F1615E900AEB0F4 /* LVTableDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableDirector.m; sourceTree = "<group>"; };
+		117AFA791F1615E900AEB0F4 /* LVTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTableRow.h; sourceTree = "<group>"; };
+		117AFA7A1F1615E900AEB0F4 /* LVTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableRow.m; sourceTree = "<group>"; };
+		117AFA7B1F1615E900AEB0F4 /* LVTableSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTableSection.h; sourceTree = "<group>"; };
+		117AFA7C1F1615E900AEB0F4 /* LVTableSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTableSection.m; sourceTree = "<group>"; };
 		2929B80BDC78B0FD8B52214E27AE3EF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B90972B8940179C937249BAF2086AA8 /* Pods-DecTable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecTable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		30C94A806CD7E016ECC56B9E5CAC25F3 /* Pods-DecTable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecTable_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3982053C4C357D1187D5ECE7A226537F /* Pods_DecTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DecTable_Example.framework; path = "Pods-DecTable_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3982053C4C357D1187D5ECE7A226537F /* Pods_DecTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecTable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F262A0CD2CA937E96CC345DAAF326A4 /* DecTable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DecTable.xcconfig; sourceTree = "<group>"; };
 		50234C4507342084F902E7511326683E /* Pods-DecTable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecTable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		682BBB6BB6B1782107F5EB8BF9FBF7AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A76F0646BAD636D54CDDB96A8E469C2 /* DecTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DecTable.framework; path = DecTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A76F0646BAD636D54CDDB96A8E469C2 /* DecTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DecTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		87349797BE226E9003FC37A2C5898CC1 /* Pods-DecTable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecTable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		934E0533C00DCB29601FC3DEF9AB0201 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95D314EE6DA05F93409EF76DF123AADF /* DecTable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DecTable-prefix.pch"; sourceTree = "<group>"; };
 		9C29084EFFF9DC5FC94CE1D86B679120 /* DecTable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DecTable-dummy.m"; sourceTree = "<group>"; };
 		A6E80C2F36676BB5903D75766A635E35 /* Pods-DecTable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecTable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A95499F62436B169B6E9AE266DB2D199 /* Pods-DecTable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecTable_Tests-dummy.m"; sourceTree = "<group>"; };
 		AC16931AEDC7D06020F37E5CBA690090 /* Pods-DecTable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecTable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		AD5260BDEB08061ED40970B6EADBEC11 /* Pods-DecTable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecTable_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AEB7FDA4EF01FE018DAE91AD6BD4C395 /* Pods_DecTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DecTable_Tests.framework; path = "Pods-DecTable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB7FDA4EF01FE018DAE91AD6BD4C395 /* Pods_DecTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DecTable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56DB3B35CF69F34F33CC02835A3828B /* Pods-DecTable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecTable_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B98DCEEE12D99F47807C4330E32CE46D /* Pods-DecTable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecTable_Tests-resources.sh"; sourceTree = "<group>"; };
 		BD6A0CEF04AB4572F59CA5FD8026D2D6 /* Pods-DecTable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecTable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		C37CC6AF7D638A6AB3AF197DBE65B1A9 /* DecTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DecTable.modulemap; sourceTree = "<group>"; };
+		C37CC6AF7D638A6AB3AF197DBE65B1A9 /* DecTable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DecTable.modulemap; sourceTree = "<group>"; };
 		C524D5F5258AB17AF1B65F067A08F357 /* Pods-DecTable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecTable_Example-dummy.m"; sourceTree = "<group>"; };
 		D5543AE0BC8F802A6F4C15CFEF89A72A /* DecTable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DecTable-umbrella.h"; sourceTree = "<group>"; };
-		D59AC9F0398805ECAA75CD6B764391FC /* Pods-DecTable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DecTable_Example.modulemap"; sourceTree = "<group>"; };
-		D60537DDE4D7B1195E7F8CBD21189A01 /* Pods-DecTable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DecTable_Tests.modulemap"; sourceTree = "<group>"; };
+		D59AC9F0398805ECAA75CD6B764391FC /* Pods-DecTable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DecTable_Example.modulemap"; sourceTree = "<group>"; };
+		D60537DDE4D7B1195E7F8CBD21189A01 /* Pods-DecTable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DecTable_Tests.modulemap"; sourceTree = "<group>"; };
 		DE19C48E71245D7BFE2389958116AC1C /* Pods-DecTable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecTable_Example-umbrella.h"; sourceTree = "<group>"; };
 		DE4F74ED0EB220AEC13F5A155803CCBA /* Pods-DecTable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecTable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		EC732220595EC659AE593E9D1CDBFEA5 /* Pods-DecTable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecTable_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -201,9 +215,15 @@
 		E2B5C3A3192E6506BFD24BB6E6553266 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0C37BF2EC3B4E31F86782AA3DEBC0442 /* ReplaceMe.m */,
+				117AFA751F1615E900AEB0F4 /* LVTableCellRegistrator.h */,
+				117AFA761F1615E900AEB0F4 /* LVTableCellRegistrator.m */,
+				117AFA791F1615E900AEB0F4 /* LVTableRow.h */,
+				117AFA7A1F1615E900AEB0F4 /* LVTableRow.m */,
+				117AFA7B1F1615E900AEB0F4 /* LVTableSection.h */,
+				117AFA7C1F1615E900AEB0F4 /* LVTableSection.m */,
+				117AFA771F1615E900AEB0F4 /* LVTableDirector.h */,
+				117AFA781F1615E900AEB0F4 /* LVTableDirector.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -220,7 +240,6 @@
 			children = (
 				E2B5C3A3192E6506BFD24BB6E6553266 /* Classes */,
 			);
-			name = DecTable;
 			path = DecTable;
 			sourceTree = "<group>";
 		};
@@ -239,7 +258,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117AFA811F1615E900AEB0F4 /* LVTableRow.h in Headers */,
+				117AFA831F1615E900AEB0F4 /* LVTableSection.h in Headers */,
+				117AFA7D1F1615E900AEB0F4 /* LVTableCellRegistrator.h in Headers */,
 				0FDD646237FBD1316F6C7646156D56B7 /* DecTable-umbrella.h in Headers */,
+				117AFA7F1F1615E900AEB0F4 /* LVTableDirector.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,8 +378,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				117AFA821F1615E900AEB0F4 /* LVTableRow.m in Sources */,
 				22CCA0876B3F2CDFC2673BE794E2D48E /* DecTable-dummy.m in Sources */,
-				ABE71DB6DE13F01841B1DCE078975599 /* ReplaceMe.m in Sources */,
+				117AFA841F1615E900AEB0F4 /* LVTableSection.m in Sources */,
+				117AFA801F1615E900AEB0F4 /* LVTableDirector.m in Sources */,
+				117AFA7E1F1615E900AEB0F4 /* LVTableCellRegistrator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
