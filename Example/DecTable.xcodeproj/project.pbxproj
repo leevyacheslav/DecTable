@@ -272,7 +272,7 @@
 			attributes = {
 				CLASSPREFIX = LV;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "vahob@utilitynyc.com";
+				ORGANIZATIONNAME = "Li Vyacheslav";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;

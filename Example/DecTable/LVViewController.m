@@ -2,8 +2,8 @@
 //  LVViewController.m
 //  DecTable
 //
-//  Created by vahob@utilitynyc.com on 07/12/2017.
-//  Copyright (c) 2017 vahob@utilitynyc.com. All rights reserved.
+//  Created by Vyacheslav on 07/12/2017.
+//  Copyright (c) Vyacheslav  All rights reserved.
 //
 
 #import "LVViewController.h"

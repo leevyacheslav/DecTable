@@ -3,7 +3,7 @@
 //  DecTable
 //
 //  Created by Vyacheslav on 7/12/17.
-//  Copyright © 2017 vahob@utilitynyc.com. All rights reserved.
+//  Copyright © 2017 Vyacheslav. All rights reserved.
 //
 
 #import "LVBlueCell.h"
